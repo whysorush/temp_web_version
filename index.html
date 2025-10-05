@@ -11,6 +11,9 @@
 	<meta name="keywords" content="investment banking, debt syndication, equity advisory, M&A, financial advisory, growthally, business finance">
 	<meta name="author" content="Growthally Advisors">
 	<meta name="robots" content="index, follow">
+	<meta name="theme-color" content="#3e78ad">
+	<meta name="msapplication-TileColor" content="#3e78ad">
+	<meta name="format-detection" content="telephone=no">
 	<meta property="og:title" content="Investment Banking Services and Solutions | Growthally Advisors">
 	<meta property="og:description" content="Growthally Advisors is a leading investment banking company offering comprehensive solutions for debt syndication, equity advisory, M&A, and more.">
 	<meta property="og:type" content="website">
@@ -20,6 +23,13 @@
 	<meta name="twitter:title" content="Investment Banking Services and Solutions | Growthally Advisors">
 	<meta name="twitter:description" content="Growthally Advisors is a leading investment banking company offering comprehensive solutions for debt syndication, equity advisory, M&A, and more.">
 	<meta name="twitter:image" content="https://www.growthally.org/wp-content/uploads/2022/01/cropped-cropped-Untitled-design-21.png">
+	
+	<!-- Performance Optimization -->
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//cdn-icons-png.flaticon.com">
+	<link rel="dns-prefetch" href="//static.cordonbleu.edu">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="https://www.growthally.org/wp-content/uploads/2022/01/cropped-cropped-Untitled-design-21.png">
@@ -226,16 +236,31 @@
 
 /* Growthally Professional White Theme */
 :root {
+    /* Royal Blue Theme */
     --primary-blue: #1e3a8a;
     --secondary-blue: #3b82f6;
-    --accent-blue: #60a5fa;
+    --accent-blue: #1d4ed8;
     --dark-blue: #1e40af;
+    --royal-blue: #1e3a8a;
+    --navy-blue: #1e40af;
+    --light-blue: #dbeafe;
+    
+    /* Text Colors */
+    --text-dark: #1f2937;
+    --text-medium: #374151;
+    --text-light: #6b7280;
+    --text-white: #ffffff;
+    
+    /* Background Colors */
+    --white: #ffffff;
     --light-gray: #f8fafc;
     --medium-gray: #e2e8f0;
-    --text-dark: #09336e;
-    --text-light: #182f4e
-    --white: #ffffff;
     --border-color: #e2e8f0;
+    
+    /* Gradient Colors */
+    --gradient-primary: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    --gradient-secondary: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+    --gradient-light: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
 }
 
 /* Header styling */
@@ -936,8 +961,8 @@
 
 /* Footer styling */
 footer {
-    background: #2c3e50 !important;
-    color: #fff;
+    background: var(--gradient-primary) !important;
+    color: var(--text-white);
     padding: 40px 0 20px;
     margin-top: 60px;
 }
@@ -954,7 +979,7 @@ footer {
 }
 
 .footer-tagline {
-    color: #ccc;
+    color: var(--light-blue);
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -1008,7 +1033,7 @@ footer {
 }
 
 .footer-links h5 {
-    color: #fff;
+    color: var(--text-white);
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -1016,7 +1041,7 @@ footer {
 
 .footer-links a {
     display: block;
-    color: #ccc;
+    color: var(--light-blue);
     text-decoration: none;
     margin-bottom: 8px;
     font-size: 14px;
@@ -1024,11 +1049,11 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #3e78ad;
+    color: var(--text-white);
 }
 
 .footer-links p {
-    color: #ccc;
+    color: var(--light-blue);
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -1037,7 +1062,7 @@ footer {
 }
 
 .footer-links i {
-    color: #3e78ad;
+    color: var(--text-white);
     width: 14px;
     font-size: 12px;
 }
@@ -1687,11 +1712,11 @@ function updateWebsiteContent() {
     tagline.textContent = 'A Friend for Growth';
   }
   
-  const serviceItems = document.querySelectorAll('.service-item');
-  if (serviceItems.length >= 3) {
-    serviceItems[0].textContent = asset_json.hero.subtitle1;
-    serviceItems[1].textContent = asset_json.hero.subtitle2;
-    serviceItems[2].textContent = asset_json.hero.subtitle3;
+  const heroServiceItems = document.querySelectorAll('.service-item');
+  if (heroServiceItems.length >= 3) {
+    heroServiceItems[0].textContent = asset_json.hero.subtitle1;
+    heroServiceItems[1].textContent = asset_json.hero.subtitle2;
+    heroServiceItems[2].textContent = asset_json.hero.subtitle3;
   }
   
   // Update about section
@@ -3854,7 +3879,7 @@ html {
   transition: all 0.3s ease;
 }
 
-.marquee-box:hover .disc p {
+.marquee-box:hver .disc p {
   color: #1a1a1a !important;
   transform: translateY(-2px);
 }
@@ -3898,9 +3923,30 @@ html {
   flex-wrap: wrap;
 }
 
-.contact_content .row .col-sm-6 {
+.marquee-box {
+  margin-bottom: 3rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.marquee-box .disc {
+  background: linear-gradient(135deg, #3e78ad 0%, #2a5a8a 100%);
+  padding: 30px;
+  margin-top: -14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(62, 120, 173, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.marquee-box .disc .inline-disc {
+  position: relative;
+  z-index: 2;
 }
 
 /* Responsive adjustments for transactions */
@@ -10225,7 +10271,7 @@ text-shadow: none;
 		.main-tagline {
 			font-family: 'Georgia', 'Times New Roman', serif;
 			font-size: clamp(2.5rem, 5vw, 4rem);
-			color: #1a1a2e;
+			color: var(--text-dark);
 			font-weight: 300;
 			letter-spacing: -1px;
 			opacity: 0;
@@ -10236,7 +10282,7 @@ text-shadow: none;
 		.sub-tagline {
 			font-family: 'Georgia', 'Times New Roman', serif;
 			font-size: clamp(1.5rem, 3vw, 2rem);
-			color: #16213e;
+			color: var(--primary-blue);
 			font-weight: 700;
 			margin-top: 15px;
 			opacity: 0;
@@ -10273,7 +10319,7 @@ text-shadow: none;
 		.service-item {
 			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 			font-size: clamp(1rem, 2vw, 1.25rem);
-			color: #4a4a4a;
+			color: var(--text-medium);
 			position: relative;
 			cursor: pointer;
 			transition: all 0.3s ease;
@@ -10287,12 +10333,12 @@ text-shadow: none;
 			left: 0;
 			width: 0;
 			height: 1px;
-			background: #1a1a2e;
+			background: var(--primary-blue);
 			transition: width 0.3s ease;
 		}
 		
 		.service-item:hover {
-			color: #1a1a2e;
+			color: var(--primary-blue);
 			transform: translateY(-2px);
 		}
 		
@@ -10600,11 +10646,12 @@ text-shadow: none;
 		}
 		
 		.job-description p {
-			color: #4b5563;
+			color: var(--text-light);
 			line-height: 1.6;
-			margin: 0;
+			margin: 0 0 1rem 0;
 			font-size: 0.95rem;
 		}
+		
 		
 		.job-actions {
 			display: flex;
@@ -10614,8 +10661,8 @@ text-shadow: none;
 		}
 		
 		.btn-view-details {
-			background: #3b82f6;
-			color: white;
+			background: var(--gradient-primary);
+			color: var(--text-white);
 			border: none;
 			padding: 0.8rem 1.5rem;
 			border-radius: 8px;
@@ -10628,13 +10675,13 @@ text-shadow: none;
 		}
 		
 		.btn-view-details:hover {
-			background: #2563eb;
+			background: var(--gradient-secondary);
 			transform: translateY(-2px);
 		}
 		
 		.btn-apply {
-			background: #10b981;
-			color: white;
+			background: var(--gradient-secondary);
+			color: var(--text-white);
 			text-decoration: none;
 			padding: 0.8rem 1.5rem;
 			border-radius: 8px;
@@ -10648,9 +10695,9 @@ text-shadow: none;
 		}
 		
 		.btn-apply:hover {
-			background: #059669;
+			background: var(--gradient-primary);
 			transform: translateY(-2px);
-			color: white;
+			color: var(--text-white);
 			text-decoration: none;
 		}
 		
@@ -10683,13 +10730,14 @@ text-shadow: none;
 	<!-- Skip Links for Accessibility -->
 	<a href="#main-content" class="skip-link">Skip to main content</a>
 	<a href="#navigation" class="skip-link">Skip to navigation</a>
+	<a href="#contact" class="skip-link">Skip to contact</a>
 	
 	<script>
 		// Error handling for production
 		window.addEventListener('error', function(e) {
 			// Log errors for debugging in development
 			if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-				console.log('Error caught:', e.error);
+				// Error handling for navigation
 			}
 		});
 		
@@ -10745,25 +10793,25 @@ text-shadow: none;
 		</header>
 
 
-		<main id="main-content">
+		<main id="main-content" role="main">
 		<div id="wrapper_scroll">
 			<div class="hero-banner" id="home">
 				<div class="hero-section">
 					<h1 class="main-tagline">Strategic Finance Advisory</h1>
 					<p class="sub-tagline">A Friend for Growth</p>
 					
-					<div class="services-container">
-						<span class="service-item" data-service="debt">Debt Syndication</span>
-						<span class="separator">•</span>
-						<span class="service-item" data-service="equity">Equity Advisory</span>
-						<span class="separator">•</span>
-						<span class="service-item" data-service="ma">M&A Advisory</span>
+					<div class="services-container" role="list" aria-label="Our Services">
+						<span class="service-item" data-service="debt" role="listitem" tabindex="0" aria-label="Debt Syndication Service">Debt Syndication</span>
+						<span class="separator" aria-hidden="true">•</span>
+						<span class="service-item" data-service="equity" role="listitem" tabindex="0" aria-label="Equity Advisory Service">Equity Advisory</span>
+						<span class="separator" aria-hidden="true">•</span>
+						<span class="service-item" data-service="ma" role="listitem" tabindex="0" aria-label="M&A Advisory Service">M&A Advisory</span>
 					</div>
 				</div>
 			</div>
 
 			<!-- WHO WE ARE -->
-			<section id="ab" class="about_us py-4">
+			<section id="ab" class="about_us py-4" aria-labelledby="about-heading">
 				<div class="container">
 					<div class="about_us__text">
 						<!-- <h2>ABOUT <span>GROWTHALLY</span></h2> -->
@@ -10847,8 +10895,8 @@ text-shadow: none;
 				<div class="container">
 					<div class="row mb-4">
 						<div class="col-12 text-center">
-							<h2 style="color: #1f2937; visibility: visible; animation-name: fadeInDown;" class="wow fadeInDown animated mb-3">Our <span style="color: #3b82f6;">Services</span></h2>
-							<p style="color: #6b7280; font-size: 16px; max-width: 600px; margin: 0 auto;" class="wow fadeInUp animated" data-wow-delay="0.3s">
+							<h2 style="color: var(--text-dark); visibility: visible; animation-name: fadeInDown;" class="wow fadeInDown animated mb-3">Our <span style="color: var(--primary-blue);">Services</span></h2>
+							<p style="color: var(--text-light); font-size: 16px; max-width: 600px; margin: 0 auto;" class="wow fadeInUp animated" data-wow-delay="0.3s">
 								Professional financial advisory services to support your business objectives
 							</p>
 						</div>
@@ -11055,7 +11103,7 @@ text-shadow: none;
 
 			<section class="contact">
 				<div class="container">
-					<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">FEW MARQUEE <span>TRANSACTIONS</span></h2>
+					<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; color: var(--text-dark);">FEW MARQUEE <span style="color: var(--primary-blue);">TRANSACTIONS</span></h2>
 
 					<div class="contact_content">
 
@@ -11217,7 +11265,7 @@ text-shadow: none;
 			<div class="container py-4">
 				<div class="row mb-3">
 					<div class="col-12 text-center">
-						<h2 class="mb-0">Meet Our <span>Team</span></h2>
+						<h2 class="mb-0" style="color: var(--text-dark);">Meet Our <span style="color: var(--primary-blue);">Team</span></h2>
 					</div>
 				</div>
 				
@@ -11225,7 +11273,7 @@ text-shadow: none;
 				<div class="founders-section mb-4">
 					<div class="row mb-3">
 						<div class="col-12 text-center">
-							<h4 class="founders-title"> <span>Our Founders</span></h4>
+							<h4 class="founders-title" style="color: var(--primary-blue);"> <span style="color: var(--dark-blue);">Our Founders</span></h4>
 						</div>
 					</div>
 					<div class="row">
@@ -11242,7 +11290,7 @@ text-shadow: none;
 				<div class="team-members-section">
 					<div class="row mb-3">
 						<div class="col-12 text-center">
-							<h3 class="team-members-title"> <span>Our Team</span></h3>
+							<h3 class="team-members-title" style="color: var(--text-dark);"> <span style="color: var(--primary-blue);">Our Team</span></h3>
 						</div>
 					</div>
 					<div class="row">
@@ -11259,8 +11307,8 @@ text-shadow: none;
 	<!-- Testimonials Section -->
 	<section id="test" class="testimonials">
 		<div class="container">
-			<h2 class="section-title wow fadeInUp">What Our <span>Clients</span> Say</h2>
-			<p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">
+			<h2 class="section-title wow fadeInUp" style="color: var(--text-dark);">What Our <span style="color: var(--primary-blue);">Clients</span> Say</h2>
+			<p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s" style="color: var(--text-light);">
 				Success stories from businesses we've helped grow
 			</p>
 			
@@ -11421,8 +11469,8 @@ text-shadow: none;
 		<div class="container ">
 			<div class="row mb-5">
 				<div class="col-12 text-center">
-					<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Current <span>Openings</span></h2>
-					<p class="mt-3 mb-4" style="font-size: 1.1rem; color: #6b7280;">Explore exciting career opportunities with Growthally</p>
+					<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; color: var(--text-dark);">Current <span style="color: var(--primary-blue);">Openings</span></h2>
+					<p class="mt-3 mb-4" style="font-size: 1.1rem; color: var(--text-light);">Explore exciting career opportunities with Growthally</p>
 				</div>
 			</div>
 				<!-- Job Cards Grid -->
@@ -11582,7 +11630,7 @@ text-shadow: none;
 		<!-- CONTACT -->
 		<section id="con" class="contact">
 			<div class="container">
-				<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Contact <span>us</span></h2>
+				<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; color: var(--text-dark);">Contact <span style="color: var(--primary-blue);">us</span></h2>
 			</div>
 			<div class="contact_address flex flex-col wow fadeInUp animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
 				<!-- <div class=""> -->
@@ -11621,7 +11669,7 @@ text-shadow: none;
 							</a>
 						</div>
 						<!-- <div class="flex items-center w-full">
-							<img class="contact-icon" alt="Email" src="./img/icons/envelope-icon.svg" loading="lazy" />
+							<img class="contact-icon" alt="Email" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" loading="lazy" />
 							<a href="mailto:info@growthally.org" class="contact-link">info@growthally.org</a>
 						</div> -->
 					</div>
@@ -14186,12 +14234,28 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
                                                         </ul>
                                                         
                                                         <h4 style="color: #1f2937; margin-bottom: 15px; font-size: 18px;">Benefits</h4>
-                                                        <ul style="color: #6b7280; margin-bottom: 0; padding-left: 20px;">
+                                                        <ul style="color: #6b7280; margin-bottom: 30px; padding-left: 20px;">
                                                                 <li>Competitive salary and performance bonuses</li>
                                                                 <li>Health insurance and retirement benefits</li>
                                                                 <li>Professional development opportunities</li>
                                                                 <li>Flexible working arrangements</li>
                                                         </ul>
+                                                        
+                                                        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+                                                                <a href="mailto:careers@growthally.org?subject=Application for Credit Analyst Position" 
+                                                                   style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); 
+                                                                          color: white; 
+                                                                          text-decoration: none; 
+                                                                          padding: 12px 30px; 
+                                                                          border-radius: 8px; 
+                                                                          font-weight: 600; 
+                                                                          display: inline-block;
+                                                                          transition: all 0.3s ease;"
+                                                                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(30, 58, 138, 0.3)'"
+                                                                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                                                                        Apply Now
+                                                                </a>
+                                                        </div>
                                                 </div>
                                         `
                                 },
@@ -14223,12 +14287,28 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
                                                         </ul>
                                                         
                                                         <h4 style="color: #1f2937; margin-bottom: 15px; font-size: 18px;">Benefits</h4>
-                                                        <ul style="color: #6b7280; margin-bottom: 0; padding-left: 20px;">
+                                                        <ul style="color: #6b7280; margin-bottom: 30px; padding-left: 20px;">
                                                                 <li>Competitive salary with commission structure</li>
                                                                 <li>Health insurance and comprehensive benefits</li>
                                                                 <li>Professional development and training programs</li>
                                                                 <li>Flexible working arrangements</li>
                                                         </ul>
+                                                        
+                                                        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+                                                                <a href="mailto:careers@growthally.org?subject=Application for Relationship Manager Position" 
+                                                                   style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); 
+                                                                          color: white; 
+                                                                          text-decoration: none; 
+                                                                          padding: 12px 30px; 
+                                                                          border-radius: 8px; 
+                                                                          font-weight: 600; 
+                                                                          display: inline-block;
+                                                                          transition: all 0.3s ease;"
+                                                                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(30, 58, 138, 0.3)'"
+                                                                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                                                                        Apply Now
+                                                                </a>
+                                                        </div>
                                                 </div>
                                         `
                                 },
@@ -14260,12 +14340,28 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
                                                         </ul>
                                                         
                                                         <h4 style="color: #1f2937; margin-bottom: 15px; font-size: 18px;">Benefits</h4>
-                                                        <ul style="color: #6b7280; margin-bottom: 0; padding-left: 20px;">
+                                                        <ul style="color: #6b7280; margin-bottom: 30px; padding-left: 20px;">
                                                                 <li>Competitive salary with performance incentives</li>
                                                                 <li>Health insurance and comprehensive benefits package</li>
                                                                 <li>Leadership development programs</li>
                                                                 <li>Flexible working arrangements</li>
                                                         </ul>
+                                                        
+                                                        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+                                                                <a href="mailto:careers@growthally.org?subject=Application for Manager - Client Acquisition Position" 
+                                                                   style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); 
+                                                                          color: white; 
+                                                                          text-decoration: none; 
+                                                                          padding: 12px 30px; 
+                                                                          border-radius: 8px; 
+                                                                          font-weight: 600; 
+                                                                          display: inline-block;
+                                                                          transition: all 0.3s ease;"
+                                                                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(30, 58, 138, 0.3)'"
+                                                                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+                                                                        Apply Now
+                                                                </a>
+                                                        </div>
                                                 </div>
                                         `
                                 }
