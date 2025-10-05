@@ -1,4 +1,7 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="download_date" content="2025-09-30T16:54:08.229Z"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
 	
 
 	<title>Investment Banking Services and Solutions | Growthally Advisors</title>
@@ -26,12 +29,40 @@
 	<link rel="canonical" href="https://www.growthally.org">
 	
 	<!-- Performance optimizations -->
-	<meta name="theme-color" content="#1a1a2e">
-	<meta name="msapplication-TileColor" content="#1a1a2e">
+	<meta name="theme-color" content="#3e78ad">
+	<meta name="msapplication-TileColor" content="#3e78ad">
 	<meta name="format-detection" content="telephone=no">
+	
+	<!-- Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		"name": "Growthally Advisors",
+		"description": "Leading investment banking company offering comprehensive solutions for debt syndication, equity advisory, M&A, and more.",
+		"url": "https://www.growthally.org",
+		"logo": "https://www.growthally.org/wp-content/uploads/2022/01/cropped-cropped-Untitled-design-21.png",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"telephone": "+91-75062-36027",
+			"contactType": "customer service",
+			"email": "info@growthally.org"
+		},
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "21A, Vasudev Chambers, Old Nagardas Cross Lane, Near Andheri Subway",
+			"addressLocality": "Andheri East",
+			"addressRegion": "Mumbai",
+			"postalCode": "400069",
+			"addressCountry": "IN"
+		}
+	}
+	</script>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link rel="dns-prefetch" href="https://cdn-icons-png.flaticon.com">
+	<link rel="dns-prefetch" href="https://static.cordonbleu.edu">
 <style>/* cyrillic-ext */
 @font-face {
   font-family: 'Noto Sans';
@@ -39,7 +70,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
@@ -49,7 +80,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* devanagari */
@@ -59,7 +90,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
 }
 /* greek-ext */
@@ -69,7 +100,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -79,7 +110,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
@@ -89,7 +120,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -99,7 +130,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -109,7 +140,7 @@
   font-weight: 400;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* cyrillic-ext */
@@ -119,7 +150,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 /* cyrillic */
@@ -129,7 +160,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
 /* devanagari */
@@ -139,7 +170,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
 }
 /* greek-ext */
@@ -149,7 +180,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+1F00-1FFF;
 }
 /* greek */
@@ -159,7 +190,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
@@ -169,7 +200,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
 }
 /* latin-ext */
@@ -179,7 +210,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -189,7 +220,7 @@
   font-weight: 700;
   font-stretch: 100%;
   font-display: swap;
-  src: url("www.example.jpg") format('woff2');
+  src: url("https://fonts.gstatic.com/s/notosans/v36/o-0IIpQlx3QUlC5A4PNb4j5Ba_2c7A.woff2") format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -690,8 +721,8 @@
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    background-image: url('https://www.growthally.org/wp-content/uploads/2022/01/Growthally.png');
-    padding: 40px 0;
+    background-image: url('https://assets.toptal.io/images?url=https%3A%2F%2Ffrontier-assets.toptal.com%2F632bcd994656740e.png');
+    padding: 25px 0;
     margin: 0;
     position: relative;
     overflow: hidden;
@@ -711,25 +742,56 @@
 .brochure-content {
     position: relative;
     z-index: 2;
+    padding: 15px 0;
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 200px;
+    gap: 20px;
 }
 
 .brochure-title {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: var(--text-dark);
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     line-height: 1.2;
 }
 
 .brochure-description {
     font-size: 1rem;
     color: var(--text-light);
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.brochure-features {
     margin-bottom: 30px;
-    line-height: 1.5;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: var(--text-dark);
+}
+
+.feature-item i {
+    color: #10b981;
+    margin-right: 12px;
+    font-size: 1.1rem;
+}
+
+.download-action {
+    position: relative;
+    z-index: 2;
+    padding: 15px 10px;
+}
+
+.download-note {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    font-style: italic;
 }
 
 
@@ -800,21 +862,21 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: linear-gradient(135deg, var(--primary-blue), #3b82f6);
+    background: linear-gradient(135deg, #3e78ad, #2a5a8a);
     color: #fff;
-    padding: 15px 30px;
-    border-radius: 50px;
+    padding: 12px 25px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     font-size: 1rem;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(30, 58, 138, 0.3);
+    box-shadow: 0 4px 15px rgba(62, 120, 173, 0.3);
 }
 
 .download-btn:hover {
-    background: linear-gradient(135deg, #1e40af, #2563eb);
+    background: linear-gradient(135deg, #2a5a8a, #1e3a5f);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(30, 58, 138, 0.4);
+    box-shadow: 0 6px 20px rgba(62, 120, 173, 0.4);
     color: #fff;
     text-decoration: none;
 }
@@ -826,78 +888,106 @@
 /* Responsive Design for Brochure Section */
 @media (max-width: 768px) {
     .brochure-section {
-        padding: 60px 0;
-        margin: 40px 0;
+        padding: 20px 0;
+    }
+    
+    .brochure-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
     }
     
     .brochure-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     .brochure-description {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     
-    .download-card {
-        padding: 30px 20px;
-        margin-top: 30px;
+    .download-action {
+        padding: 10px;
     }
     
-    .brochure-features {
-        margin-bottom: 20px;
+    .download-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
 }
 
 @media (max-width: 576px) {
     .brochure-section {
-        padding: 40px 0;
-        margin: 30px 0;
+        padding: 15px 0;
     }
     
     .brochure-title {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
     
-    .download-card {
-        padding: 25px 15px;
-    }
-    
-    .download-icon {
-        width: 60px;
-        height: 60px;
-        font-size: 1.5rem;
+    .brochure-description {
+        font-size: 0.85rem;
     }
     
     .download-btn {
-        padding: 12px 25px;
-        font-size: 0.9rem;
+        padding: 10px 18px;
+        font-size: 0.85rem;
     }
 }
 
 /* Footer styling */
 footer {
-    background: #1a1a2e !important;
+    background: #2c3e50 !important;
     color: #fff;
-    padding: 60px 0 20px;
-    margin-top: 80px;
+    padding: 40px 0 20px;
+    margin-top: 60px;
 }
 
 .footer-logo {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .footer-tagline {
     color: #ccc;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 
-.social-links {
-    display: flex;
-    gap: 15px;
-}
+		.social-links {
+			display: flex;
+			gap: 20px;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.social-links a {
+			display: inline-block;
+			transition: all 0.3s ease;
+			border-radius: 50%;
+			padding: 8px;
+			background: rgba(255, 255, 255, 0.1);
+		}
+		
+		.social-links a:hover {
+			background: rgba(62, 120, 173, 0.8);
+			transform: translateY(-3px);
+		}
+		
+		.social-icon {
+			width: 32px;
+			height: 32px;
+			transition: all 0.3s ease;
+		}
+		
+		.social-links a:hover .social-icon {
+			transform: scale(1.1);
+		}
 
 .social-links a {
     display: inline-flex;
@@ -919,52 +1009,56 @@ footer {
 
 .footer-links h5 {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .footer-links a {
     display: block;
     color: #ccc;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: var(--primary-blue);
+    color: #3e78ad;
 }
 
 .footer-links p {
     color: #ccc;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    font-size: 14px;
 }
 
 .footer-links i {
-    color: var(--primary-blue);
-    width: 16px;
+    color: #3e78ad;
+    width: 14px;
+    font-size: 12px;
 }
 
 .footer-bottom {
     border-top: 1px solid #333;
-    margin-top: 40px;
-    padding-top: 20px;
+    margin-top: 30px;
+    padding-top: 15px;
     text-align: center;
 }
 
 .footer-bottom p {
     color: #999;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-size: 13px;
 }
 
 .footer-bottom small {
     color: #666;
-    font-size: 12px;
-    line-height: 1.5;
+    font-size: 11px;
+    line-height: 1.4;
 }
 
 /* Responsive Footer */
@@ -1037,7 +1131,7 @@ footer {
 }
 
 .careers-table {
-	min-width: 800px;
+	min-width: 700px;
 }
 
 .careers-table th {
@@ -1099,7 +1193,7 @@ footer {
 	}
 	
 	.careers-table {
-		min-width: 600px;
+		min-width: 500px;
 	}
 	
 	.careers-table th,
@@ -1130,7 +1224,7 @@ footer {
 	}
 	
 	.careers-table {
-		min-width: 500px;
+		min-width: 400px;
 	}
 	
 	.careers-table th,
@@ -1269,6 +1363,15 @@ footer {
 	.author-info p {
 		font-size: 0.85rem;
 	}
+	
+	/* Video Testimonials Responsive */
+	.video-testimonial-item {
+		flex: 0 0 300px;
+	}
+	
+	.video-testimonials-scroll {
+		gap: 1.5rem;
+	}
 }
 
 @media (max-width: 576px) {
@@ -1282,6 +1385,24 @@ footer {
 	
 	.testimonial-content {
 		font-size: 0.95rem;
+	}
+	
+	/* Video Testimonials Mobile Responsive */
+	.video-testimonial-item {
+		flex: 0 0 280px;
+		padding: 1rem;
+	}
+	
+	.video-testimonials-scroll {
+		gap: 1rem;
+	}
+	
+	.video-testimonial-item h5 {
+		font-size: 1.1rem;
+	}
+	
+	.video-testimonial-item p {
+		font-size: 0.9rem;
 	}
 }
 
@@ -1371,7 +1492,7 @@ const asset_json = {
     "title": "About Growthally Advisors",
     "description": "Established in July 2010, Growthally Advisors is a leading Investment Banking company with a sharp focus on Debt Syndication, Equity Advisory, M&A, and related advisory services. Our visionary founders paved the way for our success as 'A Friend for Growth'.",
     "detailed_description": "Our team of professionals is committed to offering the most exceptional services like debt syndication, equity advisory, M&A, CFO services, leasing, and more. We are dedicated to delivering top-notch solutions to assist in our client's financial objectives. We provide the expertise and knowledge required for your accomplishments regardless you're a business owner, investor, or individual. Contact us today to learn how we can help you achieve your financial aspirations.",
-    "image": "https://www.growthally.org/wp-content/uploads/2022/01/About-Growthally.png"
+    "image": "https://amerant-of-interest-qa-wp-media.s3.amazonaws.com/wp-content/uploads/2024/10/how-to-pay-off-high-interest-debt-2048x1365.jpg"
   },
   "achievements": [
     {
@@ -1395,9 +1516,9 @@ const asset_json = {
       "label": "Team Members"
     },
     {
-      "value": "2",
+      "value": "1",
       "suffix": "+",
-      "label": "Offices Mumbai & Delhi"
+      "label": "Office Mumbai"
     },
     {
       "value": "500",
@@ -3672,8 +3793,145 @@ html {
   padding: 1.5rem;
 }
 
+/* Transactions Section Styling */
 .marquee-box {
   margin-bottom: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.marquee-box .disc {
+  background: linear-gradient(135deg, #3e78ad 0%, #2a5a8a 100%);
+  padding: 30px;
+  margin-top: -14px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(62, 120, 173, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.marquee-box .disc::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.marquee-box:hover .disc {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(62, 120, 173, 0.3);
+}
+
+.marquee-box:hover .disc::before {
+  opacity: 1;
+}
+
+.marquee-box .disc .inline-disc {
+  position: relative;
+  z-index: 2;
+}
+
+.marquee-box .disc p {
+  position: relative;
+  z-index: 2;
+  margin-top: 15px !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  transition: all 0.3s ease;
+}
+
+.marquee-box:hover .disc p {
+  color: #1a1a1a !important;
+  transform: translateY(-2px);
+}
+
+.marquee-box .disc .star-ul {
+  position: relative;
+  z-index: 2;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.marquee-box .disc .star-ul li {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.marquee-box .disc .star-ul li::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffd700;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.marquee-box:hover .disc .star-ul li {
+  color: #1a1a1a;
+  transform: translateX(5px);
+}
+
+/* Ensure equal height for all transaction blocks */
+.contact_content .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact_content .row .col-sm-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive adjustments for transactions */
+@media (max-width: 768px) {
+  .marquee-box .disc {
+    padding: 20px;
+    margin-top: -10px;
+  }
+  
+  .marquee-box .disc p {
+    font-size: 1rem;
+  }
+  
+  .marquee-box .disc .star-ul li {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .marquee-box .disc {
+    padding: 15px;
+  }
+  
+  .marquee-box .disc p {
+    font-size: 0.95rem;
+  }
+  
+  .marquee-box .disc .star-ul li {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
 }
 
 .team_large_img {
@@ -3872,6 +4130,165 @@ html {
   text-transform: none !important;
   font-size: 14px !important;
   padding-top: 3px !important;
+}
+
+/* Video Testimonials Auto-Scroll Styling */
+.video-testimonials-container {
+	overflow: hidden;
+	position: relative;
+	margin-top: 3rem;
+	background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+	padding: 2rem 0;
+	border-radius: 20px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.video-testimonials-scroll {
+	display: flex;
+	animation: scroll-left 60s linear infinite;
+	gap: 2rem;
+	width: max-content;
+	position: relative;
+}
+
+.video-testimonials-scroll:hover {
+	animation-play-state: paused;
+}
+
+/* Gradient fade effects on sides */
+.video-testimonials-container::before,
+.video-testimonials-container::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100px;
+	height: 100%;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.video-testimonials-container::before {
+	left: 0;
+	background: linear-gradient(to right, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+}
+
+.video-testimonials-container::after {
+	right: 0;
+	background: linear-gradient(to left, rgba(248, 250, 252, 1), rgba(248, 250, 252, 0));
+}
+
+.video-testimonial-item {
+	flex: 0 0 350px;
+	background: var(--bg-white);
+	border-radius: 16px;
+	padding: 1.5rem;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+	transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+	overflow: hidden;
+	border: 2px solid transparent;
+}
+
+.video-testimonial-item::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: linear-gradient(135deg, #3e78ad, #2a5a8a);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	z-index: 1;
+}
+
+.video-testimonial-item:hover {
+	transform: translateY(-12px) scale(1.02);
+	box-shadow: 0 20px 40px rgba(62, 120, 173, 0.2);
+	border-color: #3e78ad;
+}
+
+.video-testimonial-item:hover::before {
+	opacity: 0.05;
+}
+
+.video-wrapper {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%; /* 16:9 aspect ratio */
+	overflow: hidden;
+	border-radius: 12px;
+	margin-bottom: 1rem;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+}
+
+.video-wrapper:hover {
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+	transform: scale(1.02);
+}
+
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-radius: 12px;
+}
+
+.video-testimonial-item h5 {
+	margin: 0 0 0.5rem 0;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--text-dark);
+	position: relative;
+	z-index: 2;
+	transition: color 0.3s ease;
+}
+
+.video-testimonial-item:hover h5 {
+	color: #3e78ad;
+}
+
+.video-testimonial-item p {
+	margin: 0;
+	color: var(--text-muted);
+	font-size: 0.95rem;
+	line-height: 1.4;
+	position: relative;
+	z-index: 2;
+	transition: color 0.3s ease;
+}
+
+.video-testimonial-item:hover p {
+	color: #2a5a8a;
+}
+
+/* Continuous loop animation */
+@keyframes scroll-left {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+/* Pulse effect for container */
+.video-testimonials-container {
+	animation: pulse-glow 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+	0%, 100% {
+		box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+	}
+	50% {
+		box-shadow: 0 15px 50px rgba(62, 120, 173, 0.15);
+	}
 }
 
 /* .star-ul li {
@@ -9670,11 +10087,7 @@ text-shadow: none;
 			position: relative;
 		}
 
-		.disc {
-			background-color: #3e78ad;
-			padding: 30px;
-			margin-top: -14px;
-		}
+		/* .disc styles moved to main CSS section above */
 
 		.inline-disc {
 			background-color: #fff;
@@ -9685,14 +10098,609 @@ text-shadow: none;
 			padding: 6rem 0 !important;
 		}
 
+		/* Skip Links for Accessibility */
+		.skip-link {
+			position: absolute;
+			top: -40px;
+			left: 6px;
+			background: #3e78ad;
+			color: white;
+			padding: 8px;
+			text-decoration: none;
+			border-radius: 4px;
+			z-index: 1000;
+			transition: top 0.3s;
+		}
+		
+		.skip-link:focus {
+			top: 6px;
+		}
+
+		/* Navigation improvements */
+		nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		nav a {
+			text-decoration: none;
+			color: inherit;
+		}
+		
+		nav a:focus {
+			outline: 2px solid #3e78ad;
+			outline-offset: 2px;
+		}
+
+		/* Main content area */
+		#main-content {
+			scroll-margin-top: 80px;
+		}
+		
+		/* Focus management */
+		*:focus {
+			outline: 2px solid #3e78ad;
+			outline-offset: 2px;
+		}
+		
+		/* Improved button styles */
+		button, .btn {
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		
+		button:focus, .btn:focus {
+			outline: 2px solid #3e78ad;
+			outline-offset: 2px;
+		}
+		
+		/* Improved link styles */
+		a:focus {
+			outline: 2px solid #3e78ad;
+			outline-offset: 2px;
+		}
+		
+		/* Mobile optimization */
+		@media (max-width: 768px) {
+			.skip-link {
+				position: fixed;
+				top: -40px;
+				left: 50%;
+				transform: translateX(-50%);
+				z-index: 1000;
+			}
+			
+			.skip-link:focus {
+				top: 10px;
+			}
+			
+			/* Improve touch targets */
+			button, .btn, a {
+				min-height: 44px;
+				min-width: 44px;
+			}
+			
+			/* Better mobile navigation */
+			nav ul li {
+				margin: 5px 0;
+			}
+		}
+		
+		/* High contrast mode support */
+		@media (prefers-contrast: high) {
+			*:focus {
+				outline: 3px solid #000;
+			}
+		}
+		
+		/* Reduced motion support */
+		@media (prefers-reduced-motion: reduce) {
+			* {
+				animation-duration: 0.01ms !important;
+				animation-iteration-count: 1 !important;
+				transition-duration: 0.01ms !important;
+			}
+		}
+		
+		/* New Hero Section Design */
+		.hero-banner {
+			min-height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-image: url('https://static.cordonbleu.edu/Files/MediaFile/78971.jpeg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		
+		.hero-section {
+			text-align: center;
+			padding: 60px 20px;
+			max-width: 900px;
+		}
+		
+		.main-tagline {
+			font-family: 'Georgia', 'Times New Roman', serif;
+			font-size: clamp(2.5rem, 5vw, 4rem);
+			color: #1a1a2e;
+			font-weight: 300;
+			letter-spacing: -1px;
+			opacity: 0;
+			transform: translateY(20px);
+			animation: fadeInUp 1s ease forwards;
+		}
+		
+		.sub-tagline {
+			font-family: 'Georgia', 'Times New Roman', serif;
+			font-size: clamp(1.5rem, 3vw, 2rem);
+			color: #16213e;
+			font-weight: 700;
+			margin-top: 15px;
+			opacity: 0;
+			transform: translateY(20px);
+			animation: fadeInUp 1s ease 0.3s forwards;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.sub-tagline::after {
+			content: '';
+			position: absolute;
+			bottom: -5px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 0;
+			height: 2px;
+			background: linear-gradient(90deg, #d4af37, #f4e4c1);
+			animation: expandWidth 1s ease 1.3s forwards;
+		}
+		
+		.services-container {
+			margin-top: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 40px;
+			flex-wrap: wrap;
+			opacity: 0;
+			transform: translateY(20px);
+			animation: fadeInUp 1s ease 0.6s forwards;
+		}
+		
+		.service-item {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+			font-size: clamp(1rem, 2vw, 1.25rem);
+			color: #4a4a4a;
+			position: relative;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			padding: 10px 0;
+		}
+		
+		.service-item::before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 0;
+			height: 1px;
+			background: #1a1a2e;
+			transition: width 0.3s ease;
+		}
+		
+		.service-item:hover {
+			color: #1a1a2e;
+			transform: translateY(-2px);
+		}
+		
+		.service-item:hover::before {
+			width: 100%;
+		}
+		
+		.separator {
+			color: #d4af37;
+			font-weight: 300;
+			opacity: 0.5;
+		}
+		
+		@keyframes fadeInUp {
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+		
+		@keyframes expandWidth {
+			to {
+				width: 80px;
+			}
+		}
+		
+		@keyframes ripple {
+			to {
+				width: 100px;
+				height: 100px;
+				opacity: 0;
+			}
+		}
+		
+		/* Mobile responsiveness */
+		@media (max-width: 768px) {
+			.services-container {
+				flex-direction: column;
+				gap: 20px;
+			}
+			
+			.separator {
+				display: none;
+			}
+			
+			.service-item {
+				width: 100%;
+				text-align: center;
+			}
+		}
+		
+		/* Compact Team Section Styling */
+		.founders-section {
+			background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+			border-radius: 12px;
+			padding: 1.5rem;
+			margin-bottom: 1.5rem;
+			border: 2px solid #3e78ad;
+		}
+		
+		.founders-title {
+			font-size: 1.8rem;
+			font-weight: 600;
+			color: #3e78ad;
+			margin-bottom: 0;
+		}
+		
+		.founders-title span {
+			color: #2a5a8a;
+		}
+		
+		.founder-details {
+			background: rgba(255, 255, 255, 0.9);
+			border-radius: 8px;
+			padding: 1.5rem;
+			box-shadow: 0 4px 15px rgba(62, 120, 173, 0.1);
+		}
+		
+		.founder-details h4 {
+			color: #3e78ad;
+			font-size: 1.4rem;
+			font-weight: 600;
+			margin-bottom: 0.5rem;
+		}
+		
+		.founder-details .position {
+			color: #2a5a8a;
+			font-size: 1rem;
+			font-weight: 500;
+			margin-bottom: 1rem;
+			padding: 0.3rem 0.8rem;
+			background: linear-gradient(135deg, #3e78ad, #2a5a8a);
+			color: white;
+			border-radius: 15px;
+			display: inline-block;
+		}
+		
+		.founder-details .bio {
+			color: #374151;
+			line-height: 1.5;
+			margin-bottom: 1rem;
+			font-size: 0.9rem;
+		}
+		
+		.founder-img {
+			cursor: pointer;
+			transition: all 0.3s ease;
+			border-radius: 8px;
+			overflow: hidden;
+			position: relative;
+			border: 2px solid #3e78ad;
+			box-shadow: 0 4px 15px rgba(62, 120, 173, 0.2);
+		}
+		
+		.founder-img:hover {
+			transform: translateY(-4px) scale(1.02);
+			box-shadow: 0 8px 25px rgba(62, 120, 173, 0.3);
+		}
+		
+		
+		.founder-img img {
+			width: 100%;
+			height: 120px;
+			object-fit: cover;
+			transition: all 0.3s ease;
+		}
+		
+		.founder-img:hover img {
+			transform: scale(1.05);
+		}
+		
+		.team-members-section {
+			background: #ffffff;
+			border-radius: 8px;
+			padding: 1.5rem;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+		}
+		
+		.team-members-title {
+			font-size: 1.6rem;
+			font-weight: 600;
+			color: #374151;
+			margin-bottom: 0;
+		}
+		
+		.team-members-title span {
+			color: #3e78ad;
+		}
+		
+		.team-member-details {
+			background: #f8fafc;
+			border-radius: 8px;
+			padding: 1.2rem;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+		}
+		
+		.team-member-details h4 {
+			color: #374151;
+			font-size: 1.2rem;
+			font-weight: 600;
+			margin-bottom: 0.5rem;
+		}
+		
+		.team-member-details .position {
+			color: #3e78ad;
+			font-size: 0.9rem;
+			font-weight: 500;
+			margin-bottom: 0.8rem;
+			padding: 0.2rem 0.6rem;
+			background: rgba(62, 120, 173, 0.1);
+			border-radius: 12px;
+			display: inline-block;
+		}
+		
+		.team-member-details .bio {
+			color: #4b5563;
+			line-height: 1.4;
+			margin-bottom: 0.8rem;
+			font-size: 0.85rem;
+		}
+		
+		.team-member-img {
+			cursor: pointer;
+			transition: all 0.3s ease;
+			border-radius: 6px;
+			overflow: hidden;
+			border: 1px solid #e5e7eb;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+		}
+		
+		.team-member-img:hover {
+			transform: scale(1.03);
+			box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+		}
+		
+		.team-member-img img {
+			width: 100%;
+			height: 100px;
+			object-fit: cover;
+		}
+		
+		/* Job Cards Styling */
+		.job-cards-container {
+			margin-bottom: 40px;
+		}
+		
+		.job-cards-container .row {
+			display: flex;
+			align-items: stretch;
+		}
+		
+		.job-cards-container .col-lg-4,
+		.job-cards-container .col-md-6 {
+			display: flex;
+			align-items: stretch;
+		}
+		
+		.job-card {
+			background: #ffffff;
+			border-radius: 16px;
+			box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+			padding: 2rem;
+			height: 420px;
+			transition: all 0.3s ease;
+			border: 1px solid #e5e7eb;
+			position: relative;
+			overflow: hidden;
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.job-card::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 4px;
+			background: linear-gradient(135deg, #3e78ad 0%, #2a5a8a 100%);
+		}
+		
+		.job-card:hover {
+			transform: translateY(-8px);
+			box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+		}
+		
+		.job-header {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 1.5rem;
+		}
+		
+		.job-title {
+			font-size: 1.4rem;
+			font-weight: 700;
+			color: #1f2937;
+			margin: 0;
+			line-height: 1.3;
+		}
+		
+		.job-badge {
+			background: linear-gradient(135deg, #3e78ad, #2a5a8a);
+			color: white;
+			padding: 0.4rem 0.8rem;
+			border-radius: 20px;
+			font-size: 0.75rem;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+		}
+		
+		.job-details {
+			margin-bottom: 1.5rem;
+		}
+		
+		.job-info {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 0.8rem;
+			padding: 0.5rem 0;
+			border-bottom: 1px solid #f3f4f6;
+		}
+		
+		.job-info:last-child {
+			border-bottom: none;
+			margin-bottom: 0;
+		}
+		
+		.info-label {
+			font-size: 0.9rem;
+			color: #6b7280;
+			font-weight: 500;
+		}
+		
+		.info-value {
+			font-size: 0.9rem;
+			color: #1f2937;
+			font-weight: 600;
+		}
+		
+		.job-description {
+			margin-bottom: 2rem;
+		}
+		
+		.job-description p {
+			color: #4b5563;
+			line-height: 1.6;
+			margin: 0;
+			font-size: 0.95rem;
+		}
+		
+		.job-actions {
+			display: flex;
+			gap: 1rem;
+			flex-wrap: wrap;
+			margin-top: auto;
+		}
+		
+		.btn-view-details {
+			background: #3b82f6;
+			color: white;
+			border: none;
+			padding: 0.8rem 1.5rem;
+			border-radius: 8px;
+			font-size: 0.9rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			flex: 1;
+			min-width: 120px;
+		}
+		
+		.btn-view-details:hover {
+			background: #2563eb;
+			transform: translateY(-2px);
+		}
+		
+		.btn-apply {
+			background: #10b981;
+			color: white;
+			text-decoration: none;
+			padding: 0.8rem 1.5rem;
+			border-radius: 8px;
+			font-size: 0.9rem;
+			font-weight: 600;
+			display: inline-block;
+			transition: all 0.3s ease;
+			flex: 1;
+			min-width: 120px;
+			text-align: center;
+		}
+		
+		.btn-apply:hover {
+			background: #059669;
+			transform: translateY(-2px);
+			color: white;
+			text-decoration: none;
+		}
+		
+		/* Responsive Design for Job Cards */
+		@media (max-width: 768px) {
+			.job-card {
+				padding: 1.5rem;
+			}
+			
+			.job-title {
+				font-size: 1.2rem;
+			}
+			
+			.job-actions {
+				flex-direction: column;
+			}
+			
+			.btn-view-details,
+			.btn-apply {
+				width: 100%;
+				text-align: center;
+			}
+		}
+		
+
 	</style>
 <base href="https://www.growthally.org/"></head>
 
 <body class="page_index">
+	<!-- Skip Links for Accessibility -->
+	<a href="#main-content" class="skip-link">Skip to main content</a>
+	<a href="#navigation" class="skip-link">Skip to navigation</a>
+	
 	<script>
 		// Error handling for production
 		window.addEventListener('error', function(e) {
-			console.log('Error caught:', e.error);
+			// Log errors for debugging in development
+			if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+				console.log('Error caught:', e.error);
+			}
+		});
+		
+		// Check for required dependencies
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof jQuery === 'undefined') {
+				console.warn('jQuery is not loaded');
+			}
+			if (typeof $ === 'undefined') {
+				console.warn('jQuery $ is not available');
+			}
 		});
 		
 		function trim(el) {
@@ -9719,42 +10727,39 @@ text-shadow: none;
 				<!-- MAIN MENU -->
 				<i class="icon_menu visible-sm visible-xs"></i>
 				<i class="back_top_mobile arrow_carrot-up" style="display: none;"></i>
-				<nav id="menu_main">
-					<ul>
+				<nav id="menu_main" role="navigation" aria-label="Main navigation">
+					<ul role="menubar">
 
-						<li><a href="#ab">About Us</a></li>
-						<li><a href="#ser">Services</a></li>
-						<li><a href="#our">Team</a></li>
-						<li><a href="#cli">Clients</a></li>
+						<li role="none"><a href="#ab" role="menuitem">About Us</a></li>
+						<li role="none"><a href="#ser" role="menuitem">Services</a></li>
+						<li role="none"><a href="#our" role="menuitem">Team</a></li>
+						<li role="none"><a href="#cli" role="menuitem">Clients</a></li>
 
-						<li><a href="#test">Testimonials</a></li>
-						<li><a href="#car">Careers</a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#con">Contact</a></li>
+						<li role="none"><a href="#test" role="menuitem">Testimonials</a></li>
+						<li role="none"><a href="#car" role="menuitem">Careers</a></li>
+						<li role="none"><a href="#gallery" role="menuitem">Gallery</a></li>
+						<li role="none"><a href="#con" role="menuitem">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
 
+		<main id="main-content">
 		<div id="wrapper_scroll">
 			<div class="hero-banner" id="home">
-				<img src="https://static.cordonbleu.edu/Files/MediaFile/78971.jpeg" alt="Skyscrapers Banner Image" loading="lazy">
-				<!-- <img src="img/new_background.jpg" alt="Banner Image" loading="lazy"> -->
-				<div class="banner-overlay-1">
-
-				</div>
-         <div class="banner-overlay-2 flex justify-center items-center" style="margin: 0; padding: 0; gap: 20px;">
-					<div class="flex items-center" style="margin: 0; padding: 0;">
-						<h1 class="part-1 right-divide" style="margin: 0; padding: 10; text-align: center;">Strategic <br>Finance <br> Advisory</h1>
-					</div>
-					<div class="part-2" style="margin: 0; padding: 0;">
-						<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; margin: 0; padding: 0; text-align: center;">Debt Syndication</h2>
-						<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; margin: 0; padding: 0; text-align: center;">Equity Advisory</h2>
-						<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown; margin: 0; padding: 0; text-align: center;">M&A Advisory</h2>
+				<div class="hero-section">
+					<h1 class="main-tagline">Strategic Finance Advisory</h1>
+					<p class="sub-tagline">A Friend for Growth</p>
+					
+					<div class="services-container">
+						<span class="service-item" data-service="debt">Debt Syndication</span>
+						<span class="separator">•</span>
+						<span class="service-item" data-service="equity">Equity Advisory</span>
+						<span class="separator">•</span>
+						<span class="service-item" data-service="ma">M&A Advisory</span>
 					</div>
 				</div>
-				
 			</div>
 
 			<!-- WHO WE ARE -->
@@ -9765,7 +10770,7 @@ text-shadow: none;
 
 						<div class="row about-row about-pd">
 							<div class="col-sm-6">
-								<img src="https://www.growthally.org/wp-content/uploads/2022/01/About-Growthally.png" alt="Growthally Advisors - Core Values" loading="lazy">
+								<img src="https://amerant-of-interest-qa-wp-media.s3.amazonaws.com/wp-content/uploads/2024/10/how-to-pay-off-high-interest-debt-2048x1365.jpg" alt="Growthally Advisors - Core Values" loading="lazy">
 							</div>
 
 							<div class="col-sm-6 text-justify">
@@ -9825,7 +10830,7 @@ text-shadow: none;
 						</div>
 						<div class="col-xs-6 col-md-4">
 							<div class="prices_item trs_all wow flipInY animated" style="visibility: visible; animation-name: flipInY;">
-								<h4><label class="counter" style="visibility: visible;">2</label>+ Offices <br>Mumbai & Delhi </h4>
+								<h4><label class="counter" style="visibility: visible;">1</label>+ Office <br>Mumbai </h4>
 							</div>
 						</div>
 						<div class="col-xs-6 col-md-4">
@@ -10196,9 +11201,9 @@ text-shadow: none;
 		
 
 		<!-- FEATURED WORKS -->
-		<section id="cli" class="featured" style="background:#fff;">
+		<section id="cli" class="featured" style="background-image: url('https://assets.toptal.io/images?url=https%3A%2F%2Ffrontier-assets.toptal.com%2F632bcd994656740e.png'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative;">
 			<div class="container">
-				<h2 style="color: rgb(0, 0, 0); visibility: visible; animation-name: fadeInDown;" class="wow fadeInDown animated">Our <span>Clients</span></h2>
+				<h2 style="color: rgb(0, 0, 0); visibility: visible; animation-name: fadeInDown;" class="wow fadeInDown animated">Our Clients</h2>
 
 				<div id="slider_featured__2" class="owlslider owl-carousel owl-theme" style="opacity: 1; display: block;">
 					<!-- Dynamic client content will be loaded here -->
@@ -10209,32 +11214,43 @@ text-shadow: none;
 		
 <!-- WE ARE GROWTHALLY SECTION -->
 		<section class="bg-white we-are-growthally">
-			<div class="container py-5">
-				<div class="row mb-4">
+			<div class="container py-4">
+				<div class="row mb-3">
 					<div class="col-12 text-center">
 						<h2 class="mb-0">Meet Our <span>Team</span></h2>
 					</div>
 				</div>
-        <div class="container">
-				<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></h2>
-			</div>
-				<div class="row">
-					<!-- Left Column: Team Details (Dynamic Content) -->
-					<div class="col-lg-4">
-						<div class="container py-5 cust-lh-1-1">
-							
-						</div>
-						
-						<!-- Dynamic Team Details -->
-						<div id="team-details" class="team-details-container">
-							<!-- First team member will be shown by default -->
+				
+				<!-- Founders Section -->
+				<div class="founders-section mb-4">
+					<div class="row mb-3">
+						<div class="col-12 text-center">
+							<h4 class="founders-title"> <span>Our Founders</span></h4>
 						</div>
 					</div>
-					
-					<!-- Right Column: Team Images Grid -->
-					<div class="col-lg-8">
-						<div class="row" id="team-grid">
-							<!-- Dynamic team grid will be populated here -->
+					<div class="row">
+						<div class="col-lg-4">
+							<div id="founder-details" class="founder-details"></div>
+						</div>
+						<div class="col-lg-8">
+							<div class="row" id="founders-grid"></div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Team Members Section -->
+				<div class="team-members-section">
+					<div class="row mb-3">
+						<div class="col-12 text-center">
+							<h3 class="team-members-title"> <span>Our Team</span></h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div id="team-member-details" class="team-member-details"></div>
+						</div>
+						<div class="col-lg-8">
+							<div class="row" id="team-members-grid"></div>
 						</div>
 					</div>
 				</div>
@@ -10247,75 +11263,25 @@ text-shadow: none;
 			<p class="section-subtitle wow fadeInUp" data-wow-delay="0.2s">
 				Success stories from businesses we've helped grow
 			</p>
-			<div class="row">
-				<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-					<div class="testimonial-card">
-						<div class="testimonial-video">
+			
+			<!-- Video Testimonials Auto-Scroll Container -->
+			<div class="video-testimonials-container">
+				<div class="video-testimonials-scroll">
+					<!-- First set of testimonials -->
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
 							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
 									frameborder="0" 
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 									allowfullscreen>
 							</iframe>
 						</div>
-						<h4>Success Story: Manufacturing Excellence</h4>
-						<p class="text-muted">Watch how we helped TechCorp Industries secure ₹40 Cr funding for expansion</p>
+						<h5>Manufacturing Excellence</h5>
+						<p>TechCorp Industries - ₹40 Cr Funding</p>
 					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-12 wow fadeInUp" data-wow-delay="0.4s">
-							<div class="testimonial-card">
-								<div class="rating">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</div>
-								<p class="testimonial-content">
-									"Growthally's strategic approach to debt syndication helped us secure optimal funding for our expansion. 
-									Their team's expertise and network made the entire process smooth and efficient."
-								</p>
-								<div class="testimonial-author">
-									<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Team Member" 
-										 alt="Author" class="author-image">
-									<div class="author-info">
-										<h5>Rajesh Kumar</h5>
-										<p>CEO, TechCorp Industries</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
-							<div class="testimonial-card">
-								<div class="rating">
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-									<i class="fas fa-star"></i>
-								</div>
-								<p class="testimonial-content">
-									"The team at Growthally went above and beyond to understand our business needs. 
-									Their M&A advisory services were instrumental in our successful acquisition."
-								</p>
-								<div class="testimonial-author">
-									<img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100" alt="Team Member" 
-										 alt="Author" class="author-image">
-									<div class="author-info">
-										<h5>Priya Sharma</h5>
-										<p>CFO, Global Pharma Ltd</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
-					<div class="testimonial-card">
-						<div class="testimonial-video">
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
 							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
 									frameborder="0" 
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -10323,11 +11289,11 @@ text-shadow: none;
 							</iframe>
 						</div>
 						<h5>Healthcare Sector Growth</h5>
+						<p>MedLife Solutions - Strategic Advisory</p>
 					</div>
-				</div>
-				<div class="col-md-4 wow fadeInUp" data-wow-delay="0.7s">
-					<div class="testimonial-card">
-						<div class="testimonial-video">
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
 							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
 									frameborder="0" 
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -10335,11 +11301,11 @@ text-shadow: none;
 							</iframe>
 						</div>
 						<h5>Retail Expansion Success</h5>
+						<p>Fashion Forward - M&A Advisory</p>
 					</div>
-				</div>
-				<div class="col-md-4 wow fadeInUp" data-wow-delay="0.8s">
-					<div class="testimonial-card">
-						<div class="testimonial-video">
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
 							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
 									frameborder="0" 
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -10347,6 +11313,104 @@ text-shadow: none;
 							</iframe>
 						</div>
 						<h5>Tech Startup Funding</h5>
+						<p>InnovateTech - Series A Funding</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Financial Services Growth</h5>
+						<p>FinTech Solutions - Debt Syndication</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Real Estate Development</h5>
+						<p>Urban Builders - Project Financing</p>
+					</div>
+					
+					<!-- Duplicate set for seamless looping -->
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Manufacturing Excellence</h5>
+						<p>TechCorp Industries - ₹40 Cr Funding</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Healthcare Sector Growth</h5>
+						<p>MedLife Solutions - Strategic Advisory</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Retail Expansion Success</h5>
+						<p>Fashion Forward - M&A Advisory</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Tech Startup Funding</h5>
+						<p>InnovateTech - Series A Funding</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Financial Services Growth</h5>
+						<p>FinTech Solutions - Debt Syndication</p>
+					</div>
+					
+					<div class="video-testimonial-item">
+						<div class="video-wrapper">
+							<iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+									frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+									allowfullscreen>
+							</iframe>
+						</div>
+						<h5>Real Estate Development</h5>
+						<p>Urban Builders - Project Financing</p>
 					</div>
 				</div>
 			</div>
@@ -10356,109 +11420,119 @@ text-shadow: none;
 	<section id="car" class="contact careers-container">
 		<div class="container ">
 			<div class="row mb-5">
-				<h2 class="col-sm-6 p-0 wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Join Our <span>Team</span></h2>
-				<div class="col-sm-6 flex flex-col items-center">
-					<h5 style="text-align:center;font-size:1.4rem;">If you are looking for an exciting opportunity,
-						feel free to showcase your talent by sending your resume. Click on any position below to apply!
-					</h5>
-					
+				<div class="col-12 text-center">
+					<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Current <span>Openings</span></h2>
+					<p class="mt-3 mb-4" style="font-size: 1.1rem; color: #6b7280;">Explore exciting career opportunities with Growthally</p>
 				</div>
 			</div>
-				<h2 class="wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">Current <span>Openings</span></h2>
-				<br>
-				<!-- Careers Table -->
-				<div class="careers-table-container" style="background: #fff; border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.1); overflow: hidden; margin-bottom: 40px;">
-					<table class="careers-table" style="width: 100%; border-collapse: collapse; font-family: 'Inter', sans-serif;">
-						<thead>
-							<tr style="background: linear-gradient(135deg, #3e78ad 0%, #2a5a8a 100%); color: #fff;">
-								<th style="padding: 20px 15px; text-align: left; font-weight: 600; font-size: 16px; border: none;">Position</th>
-								<th style="padding: 20px 15px; text-align: left; font-weight: 600; font-size: 16px; border: none;">Department</th>
-								<th style="padding: 20px 15px; text-align: left; font-weight: 600; font-size: 16px; border: none;">Experience</th>
-								<th style="padding: 20px 15px; text-align: left; font-weight: 600; font-size: 16px; border: none;">Location</th>
-								<th style="padding: 20px 15px; text-align: center; font-weight: 600; font-size: 16px; border: none;">Description</th>
-								<th style="padding: 20px 15px; text-align: center; font-weight: 600; font-size: 16px; border: none;">Apply</th>
-							</tr>
-						</thead>
-						<tbody>
-							<!-- Credit Analyst Row -->
-							<tr style="border-bottom: 1px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'" onmouseout="this.style.backgroundColor='#fff'">
-								<td style="padding: 20px 15px; font-weight: 600; color: #1f2937; font-size: 16px; border: none;">
-									Credit Analyst
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									Risk Management
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									2+ years
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									Mumbai
-								</td>
-								<td style="padding: 20px 15px; text-align: center; border: none;">
-									<button class="description-btn" onclick="openJobDescription('credit-analyst')" style="background: #3b82f6; color: #fff; border: none; padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.3s ease;">
+				<!-- Job Cards Grid -->
+				<div class="job-cards-container">
+					<div class="row">
+						<!-- Credit Analyst Card -->
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="job-card">
+								<div class="job-header">
+									<h3 class="job-title">Credit Analyst</h3>
+									<div class="job-badge">Full-time</div>
+								</div>
+								<div class="job-details">
+									<div class="job-info">
+										<span class="info-label">Experience:</span>
+										<span class="info-value">2+ years</span>
+									</div>
+									<div class="job-info">
+										<span class="info-label">Location:</span>
+										<span class="info-value">Mumbai</span>
+									</div>
+									<div class="job-info">
+										<span class="info-label">Department:</span>
+										<span class="info-value">Credit Analysis</span>
+									</div>
+								</div>
+								<div class="job-description">
+									<p>Analyze credit risk, prepare reports, and support investment decisions in our dynamic financial advisory team.</p>
+								</div>
+								<div class="job-actions">
+									<button class="btn-view-details" onclick="openJobDescription('credit-analyst')">
 										View Details
 									</button>
-								</td>
-								<td style="padding: 20px 15px; text-align: center; border: none;">
-									<a href="mailto:careers@growthally.org?subject=Application for Credit Analyst Position" style="background: #10b981; color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; display: inline-block; transition: all 0.3s ease;">
+									<a href="mailto:careers@growthally.org?subject=Application for Credit Analyst Position" class="btn-apply">
 										Apply Now
 									</a>
-								</td>
-							</tr>
-							
-							<!-- Relationship Manager Row -->
-							<tr style="border-bottom: 1px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'" onmouseout="this.style.backgroundColor='#fff'">
-								<td style="padding: 20px 15px; font-weight: 600; color: #1f2937; font-size: 16px; border: none;">
-									Relationship Manager
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									Client Relations
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									3-5 years
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									Mumbai
-								</td>
-								<td style="padding: 20px 15px; text-align: center; border: none;">
-									<button class="description-btn" onclick="openJobDescription('relationship-manager')" style="background: #3b82f6; color: #fff; border: none; padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.3s ease;">
+								</div>
+							</div>
+						</div>
+						
+						<!-- Relationship Manager Card -->
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="job-card">
+								<div class="job-header">
+									<h3 class="job-title">Relationship Manager</h3>
+									<div class="job-badge">Full-time</div>
+								</div>
+								<div class="job-details">
+									<div class="job-info">
+										<span class="info-label">Experience:</span>
+										<span class="info-value">3-5 years</span>
+									</div>
+									<div class="job-info">
+										<span class="info-label">Location:</span>
+										<span class="info-value">Mumbai</span>
+									</div>
+									<div class="job-info">
+										<span class="info-label">Department:</span>
+										<span class="info-value">Client Relations</span>
+									</div>
+								</div>
+								<div class="job-description">
+									<p>Build and maintain client relationships, drive business growth, and deliver exceptional advisory services.</p>
+								</div>
+								<div class="job-actions">
+									<button class="btn-view-details" onclick="openJobDescription('relationship-manager')">
 										View Details
 									</button>
-								</td>
-								<td style="padding: 20px 15px; text-align: center; border: none;">
-									<a href="mailto:careers@growthally.org?subject=Application for Relationship Manager Position" style="background: #10b981; color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; display: inline-block; transition: all 0.3s ease;">
+									<a href="mailto:careers@growthally.org?subject=Application for Relationship Manager Position" class="btn-apply">
 										Apply Now
 									</a>
-								</td>
-							</tr>
-							
-							<!-- Manager - Client Acquisition Row -->
-							<tr style="border-bottom: 1px solid #e5e7eb; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#f8fafc'" onmouseout="this.style.backgroundColor='#fff'">
-								<td style="padding: 20px 15px; font-weight: 600; color: #1f2937; font-size: 16px; border: none;">
-									Manager - Client Acquisition
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									Business Development
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									5-8 years
-								</td>
-								<td style="padding: 20px 15px; color: #6b7280; font-size: 14px; border: none;">
-									Mumbai
-								</td>
-								<td style="padding: 20px 15px; text-align: center; border: none;">
-									<button class="description-btn" onclick="openJobDescription('client-acquisition-manager')" style="background: #3b82f6; color: #fff; border: none; padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; cursor: pointer; transition: all 0.3s ease;">
+								</div>
+							</div>
+						</div>
+						
+						<!-- Manager - Client Acquisition Card -->
+						<div class="col-lg-4 col-md-6 mb-4">
+							<div class="job-card">
+								<div class="job-header">
+									<h3 class="job-title">Manager - Client Acquisition</h3>
+									<div class="job-badge">Full-time</div>
+								</div>
+								<div class="job-details">
+									<div class="job-info">
+										<span class="info-label">Experience:</span>
+										<span class="info-value">5-8 years</span>
+									</div>
+									<div class="job-info">
+										<span class="info-label">Location:</span>
+										<span class="info-value">Mumbai</span>
+									</div>
+									<div class="job-info">
+										<span class="info-label">Department:</span>
+										<span class="info-value">Business Development</span>
+									</div>
+								</div>
+								<div class="job-description">
+									<p>Lead client acquisition strategies, manage business development initiatives, and drive company growth.</p>
+								</div>
+								<div class="job-actions">
+									<button class="btn-view-details" onclick="openJobDescription('client-acquisition-manager')">
 										View Details
 									</button>
-								</td>
-								<td style="padding: 20px 15px; text-align: center; border: none;">
-									<a href="mailto:careers@growthally.org?subject=Application for Manager - Client Acquisition Position" style="background: #10b981; color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; display: inline-block; transition: all 0.3s ease;">
+									<a href="mailto:careers@growthally.org?subject=Application for Manager - Client Acquisition Position" class="btn-apply">
 										Apply Now
 									</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<!-- Job Description Modal -->
@@ -10482,20 +11556,22 @@ text-shadow: none;
 		<!-- COMPANY BROCHURE SECTION -->
 	<section class="brochure-section">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-4 text-center">
+			<div class="row align-items-center">
+				<div class="col-lg-8">
 					<div class="brochure-content">
-						
-						<div class="download-card">
-							<div class="download-icon">
-								<img src="https://www.growthally.org/wp-content/uploads/2022/01/cropped-cropped-Untitled-design-21.png" alt="Growthally Logo">
-							</div>
-                            <h3 class="brochure-title">Download Our Company Brochure</h3>
-							<a href="#" class="download-btn" onclick="downloadBrochure()">
-								<i class="fas fa-download"></i>
-								Download Now
-							</a>
+						<div class="download-icon">
+							<img src="https://www.growthally.org/wp-content/uploads/2022/01/cropped-cropped-Untitled-design-21.png" alt="Growthally Logo">
 						</div>
+						<h3 class="brochure-title">Download Our Company Brochure</h3>
+						<p class="brochure-description">Get insights into our investment banking services and success stories.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 text-center">
+					<div class="download-action">
+						<a href="#" class="download-btn" onclick="downloadBrochure()">
+							<i class="fas fa-download"></i>
+							Download Now
+						</a>
 					</div>
 				</div>
 			</div>
@@ -10520,12 +11596,12 @@ text-shadow: none;
 				<!-- </div> -->
 				<div class="row head-office-row col-xs-12 col-lg-9 mx-auto">
 					<div class="col-sm-5 flex items-center justify-start">
-						<img class="head-office-icon" src="www.example.jpg" alt="Office Location" loading="lazy">
+						<img class="head-office-icon" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Office Location" loading="lazy">
 						<h3 class="contact-head-office">Head office</h3>
 					</div>
 					<div class="col-sm-7 main-office">
 						<div class="flex">
-							<img class="shift-y-point1 contact-icon" alt="Address" src="www.example.jpg" loading="lazy">
+							<img class="shift-y-point1 contact-icon" alt="Address" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" loading="lazy">
 							<p>
 								Growthally Advisors Pvt Ltd,
 								21A, Vasudev Chambers, Old Nagardas Cross Lane, <br>
@@ -10534,12 +11610,12 @@ text-shadow: none;
 						</div>
 
 						<div class="flex items-center w-full">
-							<img class="contact-icon" alt="Contact number" src="www.example.jpg" loading="lazy">
+							<img class="contact-icon" alt="Contact number" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" loading="lazy">
 							<a href="tel:+917506236027" class="contact-link">+91 75062 36027</a>
 						</div>
 
 						<div class="flex items-center w-full">
-							<img class="contact-icon" alt="Location" src="www.example.jpg" loading="lazy">
+							<img class="contact-icon" alt="Location" src="https://cdn-icons-png.flaticon.com/512/684/684908.png" loading="lazy">
 							<a href="https://maps.app.goo.gl/EZ5vroSL4AqBwPrw9" target="_blank" style="color: blue;">
 								View location on maps
 							</a>
@@ -10551,33 +11627,6 @@ text-shadow: none;
 					</div>
 				</div>
 				<div class="flex flex-col sub-office-container">
-					<div class="row col-xs-12 col-lg-9 mx-auto" style="margin-top: 2.5rem; ">
-						<!-- col-lg-5 -->
-						<div class="sub-office col-sm-6 ">
-							<p class="sub-office-title">
-								<img class="contact-icon" alt="icon" src="www.example.jpg" loading="lazy">
-								Delhi Office
-							</p>
-							<div class="flex">
-								<img class="contact-icon" alt="Address" src="www.example.jpg" loading="lazy">
-								<p>
-									D-251, 1st Floor, Street No. 10, Laxmi Nagar, <br>
-									Delhi – 110092
-								</p>
-							</div>
-
-							<div class="flex items-center w-full">
-								<img class="contact-icon" alt="Contact number" src="www.example.jpg" loading="lazy">
-								<a href="tel:+917506236027" class="contact-link">+91 75062 36027</a>
-							</div>
-							<div class="flex items-center w-full">
-								<img class="contact-icon" alt="Location" src="www.example.jpg" loading="lazy">
-								<a href="https://goo.gl/maps/zrRrphXKJpmxAu4RA" target="_blank" style="color: blue;">
-									View location on maps
-								</a>
-							</div>
-						</div>
-					</div>
 
 
 				</div>
@@ -10603,41 +11652,46 @@ text-shadow: none;
 	<footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <img src="https://www.growthally.org/wp-content/uploads/2022/01/cropped-cropped-Untitled-design-21.png" 
-                         alt="Growthally Advisors" class="footer-logo">
+                <div class="col-lg-4 col-md-6 mb-4">
+                     <img src="./assets/logo.png" 
+                          alt="Growthally Advisors" class="footer-logo"
+                          style="display: block; max-width: 150px; height: auto;"
+                          onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                     <div style="display: none; font-size: 24px; font-weight: bold; color: #3e78ad; margin-bottom: 15px;">Growthally Advisors</div>
                     <p class="footer-tagline">A Friend for Growth</p>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/company/growthally" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.facebook.com/growthally" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-                        <a href="https://www.instagram.com/growthally" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.twitter.com/growthally" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/growthally" target="_blank" rel="noopener" title="LinkedIn">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <a href="https://www.facebook.com/growthally" target="_blank" rel="noopener" title="Facebook">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/growthally" target="_blank" rel="noopener" title="Instagram">
+                            <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" class="social-icon">
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
+                <div class="col-lg-2 col-md-6 mb-4">
                     <div class="footer-links">
                         <h5>Quick Links</h5>
                         <a href="#home">Home</a>
                         <a href="#about">About</a>
                         <a href="#services">Services</a>
-                        <a href="#clients">Clients</a>
                         <a href="#contact">Contact</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="footer-links">
                         <h5>Services</h5>
                         <a href="#services">Debt Syndication</a>
                         <a href="#services">Equity Advisory</a>
                         <a href="#services">M&A Advisory</a>
-                        <a href="#services">CFO Services</a>
-                        <a href="#services">Financial Restructuring</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="footer-links">
-                        <h5>Contact Information</h5>
-                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra, India</p>
+                        <h5>Contact</h5>
+                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
                         <p><i class="fas fa-phone"></i> +91 7506236027</p>
                         <p><i class="fas fa-envelope"></i> info@growthally.org</p>
                     </div>
@@ -11955,7 +13009,7 @@ MAIN MENU
 		$(this).parent().addClass("active");
 		
 		var target = $(this).attr("href");
-		console.log('Navigation clicked, target:', target);
+		// Navigation clicked
 		
 		if (target && target.startsWith('#')) {
 			var targetElement = $(target);
@@ -11967,7 +13021,7 @@ MAIN MENU
 					itemChange();
 				});
 			} else {
-				console.log('Target element not found:', target);
+				// Target element not found
 			}
 		}
 		
@@ -12799,7 +13853,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 		// Function to load and render clients dynamically
 		function loadClients() {
 			try {
-				console.log('Starting to load clients...');
+				// Starting to load clients
 				
 				// Get the clients array
 				const clients = clientsData || [];
@@ -12808,11 +13862,11 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 				const container = document.getElementById('slider_featured__2');
 				
 				if (!container || clients.length === 0) {
-					console.log('No clients found or container not found');
+					// No clients found or container not found
 					return;
 				}
 				
-				console.log(`Loading ${clients.length} clients...`);
+				// Loading clients
 				
 				// Create the owl carousel structure
 				let html = '<div class="owl-wrapper-outer"><div class="owl-wrapper">';
@@ -12871,11 +13925,10 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 					});
 				}
 				
-				console.log(`Successfully loaded ${clients.length} clients`);
+				// Successfully loaded clients
 				
 			} catch (error) {
-				console.error('Error loading clients:', error);
-				// Fallback: show a message or hide the section
+				// Error loading clients - show fallback
 				const container = document.getElementById('slider_featured__2');
 				if (container) {
 					container.innerHTML = '<p>Clients information is currently unavailable.</p>';
@@ -12992,13 +14045,52 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 			}
 		];
 
-		// Function to populate team grid
-		function populateTeamGrid() {
-			const teamGrid = qs('#team-grid');
-			if (!teamGrid) return;
+		// Separate founders and team members
+		const founders = teamData.filter(member => member.position.includes('Founder'));
+		const teamMembers = teamData.filter(member => !member.position.includes('Founder'));
 
-			teamGrid.innerHTML = teamData.map((member, index) => `
-				<div class="col-md-4 col-lg-3 mb-4">
+		// Function to populate founders grid
+		function populateFoundersGrid() {
+			const foundersGrid = qs('#founders-grid');
+			if (!foundersGrid) return;
+
+			foundersGrid.innerHTML = founders.map((member, index) => `
+				<div class="col-md-4 col-lg-3 mb-3">
+					<div class="founder-img" data-founder-index="${index}">
+						<img src="${member.image}" alt="${member.name}" loading="lazy">
+					</div>
+				</div>
+			`).join('');
+
+			// Add hover event listeners
+			const founderElements = foundersGrid.querySelectorAll('.founder-img');
+			founderElements.forEach((member, index) => {
+				member.addEventListener('mouseenter', () => showFounderDetails(index));
+			});
+		}
+
+		// Function to show founder details
+		function showFounderDetails(index) {
+			const founderDetails = qs('#founder-details');
+			const member = founders[index];
+			
+			if (!founderDetails || !member) return;
+
+			founderDetails.innerHTML = `
+				<h4>${member.name}</h4>
+				<div class="position">${member.position}</div>
+				<div class="bio">${member.bio}</div>
+				${member.linkedin !== '#' ? `<a href="${member.linkedin}" class="linkedin-link" target="_blank">LinkedIn Profile</a>` : ''}
+			`;
+		}
+
+		// Function to populate team members grid
+		function populateTeamMembersGrid() {
+			const teamMembersGrid = qs('#team-members-grid');
+			if (!teamMembersGrid) return;
+
+			teamMembersGrid.innerHTML = teamMembers.map((member, index) => `
+				<div class="col-md-4 col-lg-3 mb-3">
 					<div class="team-member-img" data-member-index="${index}">
 						<img src="${member.image}" alt="${member.name}" loading="lazy">
 					</div>
@@ -13006,35 +14098,34 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 			`).join('');
 
 			// Add hover event listeners
-			const teamMembers = teamGrid.querySelectorAll('.team-member-img');
-			teamMembers.forEach((member, index) => {
-				member.addEventListener('mouseenter', () => showTeamDetails(index));
+			const teamMemberElements = teamMembersGrid.querySelectorAll('.team-member-img');
+			teamMemberElements.forEach((member, index) => {
+				member.addEventListener('mouseenter', () => showTeamMemberDetails(index));
 			});
 		}
 
 		// Function to show team member details
-		function showTeamDetails(index) {
-			const teamDetails = qs('#team-details');
-			const member = teamData[index];
+		function showTeamMemberDetails(index) {
+			const teamMemberDetails = qs('#team-member-details');
+			const member = teamMembers[index];
 			
-			if (!teamDetails || !member) return;
+			if (!teamMemberDetails || !member) return;
 
-			teamDetails.innerHTML = `
+			teamMemberDetails.innerHTML = `
 				<h4>${member.name}</h4>
 				<div class="position">${member.position}</div>
 				<div class="bio">${member.bio}</div>
-				<div class="specialties">
-					${member.specialties.map(specialty => `<span>${specialty}</span>`).join('')}
-				</div>
 				${member.linkedin !== '#' ? `<a href="${member.linkedin}" class="linkedin-link" target="_blank">LinkedIn Profile</a>` : ''}
 			`;
 		}
 
 		// Initialize We Are Growthally section
 		function initializeWeAreGrowthally() {
-			populateTeamGrid();
-			// Show first team member by default
-			showTeamDetails(0);
+			populateFoundersGrid();
+			populateTeamMembersGrid();
+			// Show first founder and first team member by default
+			showFounderDetails(0);
+			showTeamMemberDetails(0);
 		}
 
 		// Services section functionality - Hover only
@@ -13228,9 +14319,35 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
                         loadClients();
                         initializeWeAreGrowthally();
                         initializeServices();
+                        
+                        // Add interactive hover effects for hero services
+                        const services = document.querySelectorAll('.service-item');
+                        
+                        services.forEach(service => {
+                            // Add click ripple effect
+                            service.addEventListener('click', function(e) {
+                                const ripple = document.createElement('span');
+                                ripple.style.position = 'absolute';
+                                ripple.style.width = '20px';
+                                ripple.style.height = '20px';
+                                ripple.style.background = 'rgba(212, 175, 55, 0.3)';
+                                ripple.style.borderRadius = '50%';
+                                ripple.style.transform = 'translate(-50%, -50%)';
+                                ripple.style.pointerEvents = 'none';
+                                ripple.style.animation = 'ripple 0.6s ease-out';
+                                
+                                const rect = this.getBoundingClientRect();
+                                ripple.style.left = (e.clientX - rect.left) + 'px';
+                                ripple.style.top = (e.clientY - rect.top) + 'px';
+                                
+                                this.style.position = 'relative';
+                                this.appendChild(ripple);
+                                
+                                setTimeout(() => ripple.remove(), 600);
+                            });
+                        });
                 });
 	</script>
 
-
-
-</body>
+		</main>
+	</body>
